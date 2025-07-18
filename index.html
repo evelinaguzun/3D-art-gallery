@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>3D Art Gallery</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div id="menu">
+      <div id="img_container">
+        <div id="starry_night_bg"></div>
+      </div>
+      <div id="content_container">
+        <div id="content">
+          <div class="title">
+            <h1>3D Art Gallery</h1>
+          </div>
+          <div class="title-info">
+            <p>Welcome to the Van Gogh Virtual Gallery</p>
+            <p>
+              This 3D experience invites you to explore the beauty and depth of Vincent van Gogh's works in an immersive and interactive space.
+            </p>
+            <p>
+              We wish you an enjoyable and inspiring journey!
+            </p>
+          </div>
+
+          <div id="play_button">
+            <p>EXPLORE</p>
+          </div>
+          <div id="about_button_container">
+            <button id="about_button">ABOUT</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="about-overlay">
+      <button id="close-about">X</button>
+      <h1>About This Project</h1>
+      <p>
+        Step into a three-dimensional space dedicated to one of the most influential artists of all time.
+      </p>
+      <p>
+        This interactive gallery offers you the chance to explore some of Van Gogh’s most iconic works in a unique way — pieces that reflect his emotional intensity, vibrant color palette, and profound artistic vision.
+        Enjoy a visually captivating experience, discover the stories behind each painting, and let yourself be inspired by Van Gogh's genius.
+      </p>
+      <p>
+        We wish you a pleasant exploration!
+      </p>
+    </div>
+
+    <div id="info-panel">
+      <div id="info-header">
+        <h3>Controls</h3>
+        <button id="toggle-info">Hide</button>
+      </div>
+      <div id="info-content">
+        <p><b>W/A/S/D:</b> Move around</p>
+        <p><b>Mouse:</b> Look around</p>
+        <p><b>Space:</b> Toggle pointer lock</p>
+        <p><b>M:</b> Show Menu</p>
+        <p><b>Enter:</b> Start exploration</p>
+        <p><b>Esc:</b> Stop exploration</p>
+        <p><b>G:</b> Start audio guide</p>
+        <p><b>P:</b> Stop audio guide</p>
+      </div>
+    </div>
+
+    <div id="audio_controls">
+      <button id="start_audio">Start Audio Guide</button>
+      <button id="stop_audio">Stop Audio Guide</button>
+    </div>
+
+    <div id="painting-info"></div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

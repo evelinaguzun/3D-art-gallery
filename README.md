@@ -1,7 +1,7 @@
 ## Credits
 
-This project was made by Evelina Guzun following the YouTube tutorial (https://youtu.be/vfMizAmPprs) 
-by Emilian Kasemi (https://www.github.comtheringsofsaturn).
+This project was made following the YouTube tutorial (https://youtu.be/_AUAXlMBXyc?si=b9fF-QvZ2jpfy7of) 
+by Emilian Kasemi (https://github.com/theringsofsaturn).
 
 
 ## Installation
